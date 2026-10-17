@@ -1,0 +1,1 @@
+import{c as r}from"./supabase-CB7MGzWB.js";function o(t){try{const e=new URL(t);return e.protocol==="https:"||e.protocol==="http:"}catch{return!1}}function a(t){return!t||!o(t)?"رابط غير متوفر":new URL(t).hostname}const n=void 0,s=void 0,u=!!n,c=u?r(n,s,{auth:{persistSession:!0,autoRefreshToken:!0,detectSessionInUrl:!0}}):null;export{a as h,o as i,c as s};
